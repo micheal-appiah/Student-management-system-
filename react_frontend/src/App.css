@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+  --glow-color: hsl(186 100% 69%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1{
+  font-family: serif;
+}
+
+h2{
+  font-family: serif;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+
+
+input {
+  width: 200px;
+  margin: 10px 0; /* Adjust the margin as needed for vertical spacing */
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+}
+
+button {
+  font-size: 16px;
+  width: 150px;
+  height: 70px;
+  border: none;
+  background-color: rgb(234, 234, 242);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  align-self: center;
+}
+
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginpage-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.studentregistration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-entry-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Rightside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(blue, white);
+}
+
+.Leftside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-image: url(./webappbackgroundpic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.link-btn {
+  height: 10px;
+  width: 150px;
+  background: none;
+  color: #464855;
+  text-decoration: underline;
+}
+
+.login-btn {
+  height: 50px;
+}
+
+.logo {
+  position: center;
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+
